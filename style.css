@@ -1,11 +1,68 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
 @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+ body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100%;
+  font-size: 15px;
+  transition: all 0.4s;
+  font-family: Sora;
+  background: #000;
+  color: #fff;
+  background-repeat: no-repeat;
+}
 html {
-  position: relative;
   overflow-x: hidden !important;
 }
 a, a:hover {
   text-decoration: none;
+}
+.form{
+    margin-top: 50px;
+    transition all 4s ease-in-out;
+}
+.form-control{
+    width:800px;
+    margin: auto;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    margin-top: 16px;
+    font-size: 18px;
+    min-height: 40px;
+     }
+input{
+    height: 45px;
+    background: #fff;
+    border-color: transparent;
+    text-align: center;
+  }
+.input-cont input{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 110px;
+    color:#000;
+    border-radius: 15px;
+}
+.contactform-label{
+    color: #fff;
+    font-size: 130%;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center; 
+}
+.contect {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  background-color: #000;
+  color: #fff;
 }
 .icon {
   display: inline-block;
@@ -75,6 +132,9 @@ a, a:hover {
 @media screen and (max-width: 992px) {
   .news-slider__item {
     width: 340px;
+  }
+  .form-control{
+    width: 85vw;
   }
 }
 .news-slider__item.swiper-slide {
@@ -258,18 +318,6 @@ a, a:hover {
   width: 100%;
 }
  @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
- body {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 100%;
-  font-size: 15px;
-  transition: all 0.4s;
-  font-family: Sora;
-  background: #000;
-  color: #fff;
-  background-repeat: no-repeat;
-}
 .top{
   height: 100vh;
 }
@@ -322,6 +370,11 @@ a {
 .abt{
   background: #fff;
   color: #000;
+  min-height: 500px;
+  width: 100%;
+  text-align: center;
+}
+.contact{
   min-height: 500px;
   width: 100%;
   text-align: center;
