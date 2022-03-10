@@ -420,7 +420,7 @@ a {
 }
 .wax img{
   margin-top: -60px;
-  z-index: 2;
+  z-index: 7;
 }
 #countdown {
   width: 50%;
