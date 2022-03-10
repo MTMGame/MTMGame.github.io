@@ -298,8 +298,8 @@ a, a:hover {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 40px;
-    font-weight: bolder;
+    font-size: 50px;
+    font-weight: 900;
 }
 .button {
     border-radius: 50px;
