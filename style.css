@@ -19,7 +19,7 @@ html {
   position: absolute;
   border-radius: 50%;
   background: linear-gradient(to left, #000428, #004e92); 
-  z-index: -1;
+  z-index: 1;
 }
 .circles {
   position: absolute;
@@ -27,12 +27,14 @@ html {
   width: 450px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
+  z-index: 1;
 }
 .circle-1 {
   height: 180px;
   width: 180px;
-  top: -50px;
+  top: -50px; 
+  z-index: 1;
   left: -60px;
 }
 .circle-2 {
@@ -40,7 +42,8 @@ html {
   width: 200px;
   bottom: -90px;
   right: -90px;
-  opacity: 0.8;
+  opacity: 0.8; 
+  z-index: 1;
 }
 
 a, a:hover {
@@ -352,7 +355,8 @@ input{
  background: rgba( 0, 0, 0, 0.45 );
  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 14px );
--webkit-backdrop-filter: blur( 14px );
+-webkit-backdrop-filter: blur( 14px ); 
+  z-index: 5;
 }
 .top-img-cont{
   width: 50vw;
