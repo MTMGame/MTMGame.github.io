@@ -257,7 +257,12 @@ a, a:hover {
   height: 100%;
   width: 100%;
 }
-body {
+ @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+ body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100%;
   font-size: 15px;
   transition: all 0.4s;
   font-family: Sora;
