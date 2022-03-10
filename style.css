@@ -35,7 +35,8 @@ a, a:hover {
      }
 input{
     height: 45px;
-    background: #fff;
+    background-color: #fff;
+    color: #000;
     border-color: transparent;
     text-align: center;
   }
