@@ -15,6 +15,34 @@
 html {
   overflow-x: hidden !important;
 }
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(to left, #000428, #004e92); 
+  z-index: -1;
+}
+.circles {
+  position: absolute;
+  height: 270px;
+  width: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle-1 {
+  height: 180px;
+  width: 180px;
+  top: -50px;
+  left: -60px;
+}
+.circle-2 {
+  height: 200px;
+  width: 200px;
+  bottom: -90px;
+  right: -90px;
+  opacity: 0.8;
+}
+
 a, a:hover {
   text-decoration: none;
 }
