@@ -19,6 +19,8 @@ html {
   position: absolute;
   border-radius: 50%;
   background: linear-gradient(to left, #000428, #004e92); 
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
 }
 .circles {
   position: absolute;
