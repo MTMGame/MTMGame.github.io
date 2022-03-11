@@ -15,6 +15,11 @@
 html {
   overflow-x: hidden !important;
 }
+.abt-text-top{
+  max-width: 900px; 
+  min-height: 100px;
+  margin: auto;
+}
 .circle {
   position: absolute;
   border-radius: 50%;
