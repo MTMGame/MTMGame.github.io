@@ -30,6 +30,7 @@ html {
   left: 25%;
   -ms-transform: translate(-50%, -25%);
   transform: translate(-50%, -25%);
+  pointer-events: none;
 }
 .circle-1 {
   height: 180px;
