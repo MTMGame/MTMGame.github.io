@@ -19,7 +19,6 @@ html {
   position: absolute;
   border-radius: 50%;
   background: linear-gradient(to left, #000428, #004e92); 
-  z-index: 1;
 }
 .circles {
   position: absolute;
@@ -29,13 +28,11 @@ html {
   left: 25%;
   -ms-transform: translate(-50%, -25%);
   transform: translate(-50%, -25%);
-  z-index: 1;
 }
 .circle-1 {
   height: 180px;
     width: 180px;
     top: 277px;
-    z-index: 1;
     left: 12px;
 }
 .circle-2 {
@@ -369,11 +366,10 @@ input{
   max-height: 100vh;
   font-size: 40px;
   font-weight: 700;
-  padding-top: 40vh;    
-  background: rgba( 0, 0, 0, 0.45 );
-    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
-    backdrop-filter: blur( 14px );
-    -webkit-backdrop-filter: blur( 14px );
+  padding-top: 40vh;
+  background: rgba( 0, 0, 0, 0.2 );
+  backdrop-filter: blur( 14px );
+  -webkit-backdrop-filter: blur( 20px );
 }
 .moving_background_gradient {
     background: url(https://media4.giphy.com/media/xT0xepIsg7kK2ZZO0g/200w.webp?cid=ecf05e47c7x8w04ntrx8eboq2i6z69xoxkllraomr10i1vuc&ct=g&rid=200w.webp);
