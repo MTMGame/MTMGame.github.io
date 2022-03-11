@@ -54,6 +54,7 @@ a, a:hover {
 }
 .form-control{
     width: 800px;
+    max-width: 800px;
     margin: auto;
     background: transparent;
     border: none;
