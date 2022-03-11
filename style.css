@@ -33,18 +33,17 @@ html {
 }
 .circle-1 {
   height: 180px;
-  width: 180px;
-  top: -50px; 
-  z-index: 1;
-  left: -60px;
+    width: 180px;
+    top: 277px;
+    z-index: 1;
+    left: 12px;
 }
 .circle-2 {
-  height: 200px;
-  width: 200px;
-  bottom: -90px;
-  right: -90px;
-  opacity: 0.8; 
-  z-index: 1;
+     height: 200px;
+    width: 200px;
+    bottom: 272px;
+    right: -216px;
+    opacity: 0.8;
 }
 
 a, a:hover {
@@ -353,11 +352,6 @@ input{
  @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 .top{
   height: 100vh;
- background: rgba( 0, 0, 0, 0.45 );
- box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 14px );
--webkit-backdrop-filter: blur( 14px ); 
-  z-index: 5;
 }
 .top-img-cont{
   width: 50vw;
@@ -375,7 +369,11 @@ input{
   max-height: 100vh;
   font-size: 40px;
   font-weight: 700;
-  padding-top: 40vh;
+  padding-top: 40vh;    
+  background: rgba( 0, 0, 0, 0.45 );
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+    backdrop-filter: blur( 14px );
+    -webkit-backdrop-filter: blur( 14px );
 }
 .moving_background_gradient {
     background: url(https://media4.giphy.com/media/xT0xepIsg7kK2ZZO0g/200w.webp?cid=ecf05e47c7x8w04ntrx8eboq2i6z69xoxkllraomr10i1vuc&ct=g&rid=200w.webp);
