@@ -52,6 +52,14 @@ a, a:hover {
     margin-top: 50px;
     transition all 4s ease-in-out;
 }
+.con-bg{
+  width: 900px;
+  padding: auto;
+  padding-top: 20px;
+  border-radius: 25px;
+  margin: auto;
+  background: linear-gradient(to bottom left, #0000ff 0%, #ff6699 100%);
+}
 .form-control{
     width: 800px;
     max-width: 800px;
@@ -63,7 +71,8 @@ a, a:hover {
     outline: none;
     border-radius: 10px;
     border-bottom: 1px solid white;
-    margin-top: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-size: 18px;
     min-height: 40px;
      }
