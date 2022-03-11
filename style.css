@@ -53,11 +53,14 @@ a, a:hover {
     transition all 4s ease-in-out;
 }
 .form-control{
-    width:800px;
+    width: 800px;
     margin: auto;
     background: transparent;
     border: none;
+    color: 000;
+    background: #fff;
     outline: none;
+    border-radius: 10px;
     border-bottom: 1px solid white;
     margin-top: 16px;
     font-size: 18px;
