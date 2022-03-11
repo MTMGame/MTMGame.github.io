@@ -284,6 +284,9 @@ input{
   .news__item {
     padding: 30px;
   }
+  .con-bg{
+    width: 90vw;
+  }
 }
 @media screen and (max-width: 576px) {
   .news__item {
