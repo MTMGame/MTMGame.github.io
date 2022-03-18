@@ -19,7 +19,6 @@ VanillaTilt.init(document.querySelectorAll(".top-img-cont"), {
     	"max-glare": 1,
     	"glare-prerender": false,
     	"mouse-event-element": null,
-	axis: Y,
         easing:"cubic-bezier(.03,.98,.52,.99)",
         perspective:500,
         transition:true
