@@ -15,11 +15,6 @@ VanillaTilt.init(document.querySelectorAll(".top-img-cont"), {
         speed: 300,
 	transition: true,
 	reset: true,
-	glare: true,
-    	"max-glare": 1,
-    	"glare-prerender": false,
-    	"mouse-event-element": null,
-        easing:"cubic-bezier(.03,.98,.52,.99)",
         perspective:500,
         transition:true
     });
