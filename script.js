@@ -9,8 +9,17 @@ var item = document.querySelector('.news__item');
 
 
 VanillaTilt.init(document.querySelectorAll(".top-img-cont"), {
-    max: 25,
-        speed: 400,
+        max: 20,
+	reverse: true,
+	startX: 50,
+        speed: 300,
+	transition: true,
+	reset: true,
+	glare: true,
+    	"max-glare": 1,
+    	"glare-prerender": false,
+    	"mouse-event-element": null,
+	axis: Y,
         easing:"cubic-bezier(.03,.98,.52,.99)",
         perspective:500,
         transition:true
