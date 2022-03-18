@@ -380,8 +380,9 @@ input{
   float: right;
 }
 .top-img-cont img{
-  width: 50vw;
-  height: 100vh;
+  margin-left: 7vw;
+  width: 36vw;
+  height: 36vw;
 }
 .top-text-cont{
   width: 50vw;
