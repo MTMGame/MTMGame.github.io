@@ -7,6 +7,16 @@ var bg = document.querySelector('.item-bg');
 var items = document.querySelectorAll('.news__item');
 var item = document.querySelector('.news__item');
 
+
+VanillaTilt.init(document.querySelectorAll(".top-img-cont"), {
+    max: 25,
+        speed: 400,
+        easing:"cubic-bezier(.03,.98,.52,.99)",
+        perspective:500,
+        transition:true
+    });
+
+
 function cLog(content) {
     console.log(content)
 }
