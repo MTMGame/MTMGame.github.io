@@ -372,6 +372,7 @@ input{
 }
 .top{
   height: 100vh;
+  margin-top: 4%;
 }
 .top-img-cont{
   width: 50vw;
@@ -449,7 +450,7 @@ a {
   color: #000;
   font-weight: bolder;
 }
-li {
+#minutes, #hours, #days,#seconds {
     margin: 0 -3px 0 0;
     padding: 0;
     display: inline-block;
@@ -458,6 +459,10 @@ li {
     font-size: 6vw;
     text-align: center;
 }  
+.navli{
+    margin:0% 4%;
+    
+}
 li .label {
       color: #adafb2;
       font-size: 18px;
