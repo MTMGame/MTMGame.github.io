@@ -1,4 +1,4 @@
-var targetDate = new Date("2022/04/07 00:00:00");
+var targetDate = new Date("2022/04/30 00:00:00");
 var days;
 var hrs;
 var min;
